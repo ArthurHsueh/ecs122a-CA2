@@ -1,5 +1,3 @@
-import time
-start_time = time.time()
 
 def compute_diamter(n, edges):
     # Input: `n` - the size of the tree
@@ -46,6 +44,3 @@ for _ in range(T):
         edges.append((u, v))
     print(compute_diamter(n, edges))
 
-end_time = time.time()
-execution_time = end_time - start_time
-print(f"Execution time: {execution_time:.6f} seconds")
